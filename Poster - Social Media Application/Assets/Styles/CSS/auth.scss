@@ -1,0 +1,345 @@
+@import "../Constants/Colors.scss";
+
+.__container {
+  width: 803pt;
+  // width: 67%;
+  height: 414pt;
+  background-color: $white;
+  box-shadow: 0px 0px 1pt $dark_smoke;
+  border-radius: 5pt;
+  overflow: hidden;
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .left__box {
+      width: 293pt;
+      height: 100%;
+      background-color: $green_1;
+      position: relative;
+
+      .pattern {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../Images/Random/patterns.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        .wrapper {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+          color: $white;
+
+          .top__content {
+            margin-top: 25pt;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .brand__logo {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              margin-left: 15pt;
+
+              .logo__icon {
+                width: 35px;
+                height: 35px;
+                position: relative;
+                overflow: hidden;
+
+                img {
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              }
+
+              .logo__name {
+                text-transform: uppercase;
+                font-family: Anton;
+                font-size: 11pt;
+                padding-left: 6pt;
+              }
+            }
+
+            .link {
+              margin-right: 9pt;
+              font-family: poppins;
+              font-size: 8pt;
+              font-weight: 300;
+              text-transform: capitalize;
+
+              a {
+                font-weight: bold;
+                color: $white;
+              }
+            }
+          }
+          .bottom__content {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+
+            .title {
+              font-family: Anton;
+              text-transform: uppercase;
+              font-size: 14pt;
+              margin: 0;
+              padding: 0;
+            }
+
+            .paragraph {
+              font-family: poppins;
+              font-weight: 300;
+              text-transform: capitalize;
+              font-size: 7.5pt;
+              margin: 0;
+              padding: 0;
+              margin-top: 5.5pt;
+              margin-bottom: 21pt;
+            }
+            .social_icon {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+              margin-bottom: 57.5pt;
+
+              .icon {
+                width: 20px;
+                height: 20px;
+                position: relative;
+                overflow: hidden;
+                margin: 0px 10px;
+
+                img {
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .right__box {
+      width: 510pt;
+      height: 100%;
+      padding: 26pt 41.5pt 34.5pt 41.5pt;
+
+      .top__bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        visibility: hidden;
+        // background-color: green;
+
+        .left__bar {
+          .brand__logo {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 15pt;
+
+            .logo__icon {
+              width: 35px;
+              height: 35px;
+              position: relative;
+              overflow: hidden;
+
+              img {
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+
+            .logo__name {
+              text-transform: uppercase;
+              font-family: Anton;
+              font-size: 11pt;
+              padding-left: 6pt;
+            }
+          }
+        }
+
+        .right__bar {
+          display: flex;
+          justify-tracks: flex-end;
+          align-items: center;
+          .link {
+            margin-right: 9pt;
+            font-family: poppins;
+            font-size: 8pt;
+            font-weight: 300;
+            text-transform: capitalize;
+            color: $black;
+
+            a {
+              font-weight: bold;
+              color: $black;
+            }
+          }
+
+          .social_icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            .icon {
+              width: 18px;
+              height: 18px;
+              position: relative;
+              overflow: hidden;
+              margin: 0px 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              img {
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+
+      form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20pt;
+
+        .title {
+          font-family: Anton;
+          text-transform: uppercase;
+          font-size: 16pt;
+          margin: 0;
+          padding: 0;
+          color: $green_1;
+        }
+
+        .paragraph {
+          font-family: poppins;
+          font-weight: 300;
+          text-transform: capitalize;
+          font-size: 10pt;
+          margin: 0;
+          padding: 0;
+          margin-top: 5.5pt;
+          margin-bottom: 5pt;
+          text-align: center;
+          position: relative;
+
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            height: 2px;
+            width: 45%;
+            background-color: $dark_smoke;
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        .fields {
+          margin-top: 28pt;
+
+          .item {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20pt;
+            input,
+            select {
+              width: 90%;
+              border: 1.5px solid $dark_smoke;
+              outline: none;
+              background-color: transparent;
+              border-radius: 3px;
+              height: 31pt;
+              padding-left: 12pt;
+              font-family: tahoma;
+              font-size: 9pt;
+              color: $black;
+            }
+          }
+        }
+
+        .btn_signup {
+          width: 96%;
+          background-color: $green_1;
+          border: none;
+          outline: none;
+          height: 31pt;
+          border-radius: 3px;
+          color: white;
+          font-weight: bold;
+          font-size: 14px;
+          font-family: poppins;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1120px) {
+  .__container {
+    width: 510pt;
+    .wrapper {
+      .left__box {
+        display: none;
+      }
+
+      .right__box {
+        .top__bar {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
