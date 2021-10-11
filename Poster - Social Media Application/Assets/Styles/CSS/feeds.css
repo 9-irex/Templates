@@ -653,6 +653,110 @@
   cursor: pointer;
 }
 
+.__container .wrapper .notifications {
+  height: 100%;
+  width: 399.5pt;
+}
+
+.__container .wrapper .notifications .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar {
+  width: 100%;
+  height: 30pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 15.5pt;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar div:nth-child(2) {
+  margin: 0 26pt;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar div p {
+  font-family: poppins;
+  font-size: 8.5pt;
+  margin-top: 14px;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar div i {
+  font-size: 14px;
+  margin-right: 3.5pt;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar div .profile {
+  width: 25pt;
+  height: 25pt;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 6pt;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar div .profile img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar .active {
+  position: relative;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar .active::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0D913E;
+}
+
+.__container .wrapper .notifications .wrapper .links_bar .active p,
+.__container .wrapper .notifications .wrapper .links_bar .active i {
+  color: #0D913E;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }

@@ -482,6 +482,88 @@
         }
       }
     }
+
+    .notifications {
+      height: 100%;
+      width: 399.5pt;
+
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+
+        .links_bar {
+          width: 100%;
+          height: 30pt;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding-right: 15.5pt;
+          border-bottom: 1px solid $white_smoke;
+
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:nth-child(2) {
+              margin: 0 26pt;
+            }
+
+            p {
+              font-family: poppins;
+              font-size: 8.5pt;
+              margin-top: 14px;
+            }
+
+            i {
+              font-size: 14px;
+              margin-right: 3.5pt;
+            }
+
+            .profile {
+              width: 25pt;
+              height: 25pt;
+              position: relative;
+              overflow: hidden;
+              border-radius: 50%;
+              margin-right: 6pt;
+
+              img {
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+
+          .active {
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 2px;
+              left: 0;
+              width: 100%;
+              height: 2px;
+              background-color: $green_3;
+            }
+
+            p,
+            i {
+              color: $green-3;
+            }
+          }
+        }
+      }
+    }
   }
 }
 

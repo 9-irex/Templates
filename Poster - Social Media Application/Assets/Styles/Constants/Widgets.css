@@ -20,19 +20,4 @@ body {
   min-height: 100vh;
   background-color: #f0f0f0;
 }
-
-.input_hover {
-  position: relative;
-}
-
-.input_hover input {
-  border: none;
-  outline: none;
-}
-
-.input_hover input:focus ~ label,
-.input_hover input:valid ~ label {
-  top: 0;
-  left: 0;
-}
 /*# sourceMappingURL=Widgets.css.map */
