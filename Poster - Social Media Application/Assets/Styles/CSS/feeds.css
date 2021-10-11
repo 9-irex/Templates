@@ -480,6 +480,179 @@
   font-weight: bold;
 }
 
+.__container .wrapper .posts {
+  width: 261pt;
+  height: 100%;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+.__container .wrapper .posts .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.__container .wrapper .posts .wrapper .post_box {
+  width: 242pt;
+  height: 242pt;
+  border-radius: 5pt;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 2px #595959;
+          box-shadow: 0px 0px 2px #595959;
+  margin-bottom: 11pt;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar {
+  width: 100%;
+  height: 38pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 7.5pt;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar div .image {
+  width: 25pt;
+  height: 25pt;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-right: 4.5pt;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar div .image img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar div div .name {
+  font-family: poppins;
+  font-size: 9pt;
+  font-weight: bold;
+  color: #0D913E;
+  text-transform: capitalize;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar div div .date {
+  font-family: poppins;
+  font-size: 7pt;
+  color: #000000;
+}
+
+.__container .wrapper .posts .wrapper .post_box .top__bar i {
+  font-size: 18px;
+  color: #0D913E;
+  cursor: pointer;
+}
+
+.__container .wrapper .posts .wrapper .post_box .middle_bar {
+  width: 100%;
+  height: 174pt;
+  position: relative;
+  overflow: hidden;
+}
+
+.__container .wrapper .posts .wrapper .post_box .middle_bar img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .posts .wrapper .post_box .last__bar {
+  width: 100%;
+  height: 30pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 8pt;
+}
+
+.__container .wrapper .posts .wrapper .post_box .last__bar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .posts .wrapper .post_box .last__bar div p {
+  font-family: poppins;
+  font-size: 7pt;
+  font-weight: 500;
+  margin-top: 10pt;
+}
+
+.__container .wrapper .posts .wrapper .post_box .last__bar div i {
+  margin-right: 6pt;
+  font-size: 12pt;
+  cursor: pointer;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
