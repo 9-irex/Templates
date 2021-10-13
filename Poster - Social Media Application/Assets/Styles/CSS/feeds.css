@@ -541,6 +541,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .__container .wrapper .posts .wrapper .post_box .top__bar div .image {
@@ -703,6 +704,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .__container .wrapper .notifications .wrapper .links_bar div:nth-child(2) {
