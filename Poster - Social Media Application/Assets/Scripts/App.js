@@ -16,4 +16,14 @@ $(document).ready(() => {
       bool = 1;
     }
   });
+
+  // Redirecting Notification Bar
+  // debugger;
+  let linkBar = document.querySelectorAll(".links_bar .link");
+  $(linkBar).on("click", function () {
+    linkBar.forEach((link) => {
+      link.classList.remove("active");
+    });
+    $(this).addClass("active");
+  });
 });

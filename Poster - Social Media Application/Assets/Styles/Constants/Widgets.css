@@ -21,4 +21,12 @@ body {
   font-family: poppins;
   background-color: #f0f0f0;
 }
+
+.__hide {
+  display: none;
+}
+
+.__show {
+  display: block;
+}
 /*# sourceMappingURL=Widgets.css.map */
