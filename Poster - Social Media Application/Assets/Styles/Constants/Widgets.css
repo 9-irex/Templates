@@ -18,6 +18,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
+  font-family: poppins;
   background-color: #f0f0f0;
 }
 /*# sourceMappingURL=Widgets.css.map */
