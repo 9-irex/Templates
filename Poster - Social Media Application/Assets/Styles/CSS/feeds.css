@@ -505,7 +505,6 @@
 
 .__container .wrapper .posts .wrapper .post_box {
   width: 242pt;
-  height: 242pt;
   border-radius: 5pt;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 2px #595959;
@@ -591,6 +590,14 @@
   font-size: 18px;
   color: #0D913E;
   cursor: pointer;
+}
+
+.__container .wrapper .posts .wrapper .post_box .postTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 14px;
+  padding: 0 7.5pt;
 }
 
 .__container .wrapper .posts .wrapper .post_box .middle_bar {
