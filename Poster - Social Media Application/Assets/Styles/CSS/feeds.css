@@ -109,6 +109,10 @@
   cursor: pointer;
 }
 
+.__container .wrapper .navigation__side div .icon:first-child {
+  bottom: 13pt;
+}
+
 .__container .wrapper .navigation__side div .icon i {
   color: #0D913E;
   font-size: 13pt;
