@@ -1,0 +1,610 @@
+.__container {
+  width: 905pt;
+  height: 485pt;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 1pt #595959;
+          box-shadow: 0px 0px 1pt #595959;
+  border-radius: 5pt;
+  overflow: hidden;
+}
+
+.__container .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .navigation__side {
+  width: 45pt;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  padding: 11pt 0px;
+  border-right: 1pt solid #f0f0f0;
+}
+
+.__container .wrapper .navigation__side div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.__container .wrapper .navigation__side div:nth-child(1) .icon:nth-child(2) {
+  margin: 19pt 0;
+}
+
+.__container .wrapper .navigation__side div .logo {
+  width: 21pt;
+  height: 21pt;
+  border-radius: 5pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d913e;
+  position: relative;
+}
+
+.__container .wrapper .navigation__side div .logo img {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .navigation__side div .icon {
+  width: 21pt;
+  height: 21pt;
+  border-radius: 5pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.__container .wrapper .navigation__side div .icon:first-child {
+  bottom: 13pt;
+}
+
+.__container .wrapper .navigation__side div .icon i {
+  color: #0d913e;
+  font-size: 13pt;
+}
+
+.__container .wrapper .navigation__side div .active {
+  position: relative;
+}
+
+.__container .wrapper .navigation__side div .active::after {
+  content: "";
+  position: absolute;
+  right: -13.5pt;
+  top: 0;
+  width: 1.5pt;
+  height: 100%;
+  background-color: #0d913e;
+}
+
+.__container .wrapper .navigation__side div .indicator {
+  width: 27pt;
+  height: 27pt;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2pt solid #0d913e;
+  margin-top: 13pt;
+}
+
+.__container .wrapper .navigation__side div .indicator .profile {
+  width: 21pt;
+  height: 21pt;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.__container .wrapper .navigation__side div .indicator .profile img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .feed_bar {
+  width: 199.5pt;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 13pt;
+  border-right: 1pt solid #f0f0f0;
+}
+
+.__container .wrapper .feed_bar .up_bar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .feed_bar .up_bar .title {
+  margin-top: 11pt;
+  font-size: 13.5pt;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #036822;
+}
+
+.__container .wrapper .feed_bar .up_bar .title span {
+  font-weight: 200;
+}
+
+.__container .wrapper .feed_bar .up_bar i {
+  cursor: pointer;
+  font-size: 18px;
+  color: #036822;
+}
+
+.__container .wrapper .feed_bar .search_bar {
+  width: 100%;
+  height: 30pt;
+  position: relative;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #036822;
+  background-color: transparent;
+  color: #036822;
+}
+
+.__container .wrapper .feed_bar .search_bar input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  margin-left: 36pt;
+}
+
+.__container .wrapper .feed_bar .search_bar i {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 14pt;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes {
+  width: 100%;
+  margin-top: 10pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  overflow-y: auto;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box {
+  width: 100%;
+  height: 34pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5pt;
+  cursor: pointer;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box:hover {
+  background-color: #4abe81;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box .user_chat_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 4.5pt;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box .user_chat_details .image {
+  width: 27pt;
+  height: 27pt;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box .user_chat_details .image img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box .user_chat_details .details {
+  margin-left: 6.5pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box .user_chat_details .details .name {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box .user_chat_details .details .last_message {
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+  margin-top: 1pt;
+}
+
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box .indicator {
+  margin-right: 8.5pt;
+  width: 6pt;
+  height: 6pt;
+  background-color: #036822;
+  border-radius: 50%;
+}
+
+.__container .wrapper .chat_bar {
+  width: 660.5pt;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10pt 14.5pt;
+}
+
+.__container .wrapper .chat_bar .top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .chat_bar .top .image {
+  width: 27pt;
+  height: 27pt;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.__container .wrapper .chat_bar .top .image img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .chat_bar .top .name {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  margin-left: 9pt;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.__container .wrapper .chat_bar .board {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.__container .wrapper .chat_bar .board .wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 30pt;
+  overflow-y: scroll;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .reciever,
+.__container .wrapper .chat_bar .board .wrapper .sender {
+  margin: 10pt 0;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .sender {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .sender .box {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .sender .box .message {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  font-size: 12px;
+  background-color: #000000;
+  border-radius: 5pt;
+  padding: 5pt;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .reciever {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .reciever .box {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .reciever .box .img {
+  width: 20pt;
+  height: 20pt;
+  border-radius: 5pt;
+  overflow: hidden;
+  position: relative;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .reciever .box .img img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.__container .wrapper .chat_bar .board .wrapper .reciever .box .message {
+  margin-left: 4.5pt;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  font-size: 12px;
+  background-color: #4abe81;
+  border-radius: 5pt;
+  padding: 5pt;
+}
+
+.__container .wrapper .chat_bar .bottom {
+  width: 100%;
+  height: 28pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.__container .wrapper .chat_bar .bottom .message {
+  width: 590pt;
+  height: 100%;
+  border-radius: 5pt;
+  background-color: #f0f0f0;
+}
+
+.__container .wrapper .chat_bar .bottom .message input {
+  padding-left: 15pt;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  height: 100%;
+  background-color: transparent;
+}
+
+.__container .wrapper .chat_bar .bottom .icon {
+  width: 28pt;
+  height: 100%;
+  border-radius: 5pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #036822;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+/*# sourceMappingURL=chats.css.map */
