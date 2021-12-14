@@ -259,6 +259,18 @@
             background-color: $green_1;
             border-radius: 50%;
           }
+
+          button {
+            margin-right: 8.5pt;
+            border: none;
+            outline: none;
+            background-color: black;
+            color: white;
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 3px;
+            cursor: pointer;
+          }
         }
       }
     }

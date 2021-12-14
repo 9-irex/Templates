@@ -363,6 +363,18 @@
   border-radius: 50%;
 }
 
+.__container .wrapper .feed_bar .list_chat_boxes .user_chat__box button {
+  margin-right: 8.5pt;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 .__container .wrapper .chat_bar {
   width: 660.5pt;
   height: 100%;
